@@ -1,4 +1,4 @@
-html, body{
+﻿html, body{
 	background-color: white;
 }
 
@@ -88,3 +88,8 @@ a:hover{
 }
 
 /* =============== Fonts =============== */
+
+
+.tam{
+	height: 100%;
+}
