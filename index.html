@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<nav class="ty-nav navbar navbar-expand-lg">
+	<nav class="ty-nav navbar navbar-expand-lg fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">Assinatura Digital</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -23,17 +23,20 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
+
+			
 			<div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<a class="nav-link" href="#ty-home">Home</a>
+					<a class="nav-link" href="#ty-validar">Validar</a>
+					<a class="nav-link" href="#ty-assina">Assinar</a>
+				</ul>
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-						 aria-expanded="false">
-							Menu
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="login.html">Login</a>
-						</div>
-					</li>
+					<a class="" href="login.html">
+						<button class="btn btn-danger">
+							Login
+						</button>
+					</a>
 				</ul>
 			</div>
 		</div>
@@ -42,26 +45,13 @@
 	<section id="ty-home">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
-				<h1>Assinatura Digital</h1>
+				<h1>Sistema de Assinatura Digital</h1>
 			</div>
-			<div class="row">
+			<div class="ty-font-home">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, lacus nec facilisis commodo, velit lorem lobortis
-					elit, eget iaculis diam ipsum sit amet massa. Sed et ante vel leo interdum fringilla. Sed vel tincidunt neque. Quisque
-					venenatis elit vitae tortor lobortis lacinia. Curabitur ut ornare orci. Nulla facilisi. Integer elementum volutpat magna,
-					eu tempus est dignissim non. Nullam pellentesque lorem quis pretium malesuada. Suspendisse ac libero porta, fringilla
-					sapien nec, mattis leo. Curabitur at tincidunt mi. Pellentesque habitant morbi tristique senectus et netus et malesuada
-					fames ac turpis egestas. Cras semper suscipit lacinia. Curabitur nec arcu nunc. Praesent dolor turpis, ullamcorper euismod
-					leo eget, laoreet suscipit ipsum. Sed sed elementum risus.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, lacus nec facilisis commodo, velit lorem lobortis
-					elit, eget iaculis diam ipsum sit amet massa. Sed et ante vel leo interdum fringilla. Sed vel tincidunt neque. Quisque
-					venenatis elit vitae tortor lobortis lacinia. Curabitur ut ornare orci. Nulla facilisi. Integer elementum volutpat magna,
-					eu tempus est dignissim non. Nullam pellentesque lorem quis pretium malesuada. Suspendisse ac libero porta, fringilla
-					sapien nec, mattis leo. Curabitur at tincidunt mi. Pellentesque habitant morbi tristique senectus et netus et malesuada
-					fames ac turpis egestas. Cras semper suscipit lacinia. Curabitur nec arcu nunc. Praesent dolor turpis, ullamcorper euismod
-					leo eget, laoreet suscipit ipsum. Sed sed elementum risus.
+					Toda vez que você vai validar um documento é necessário assiná-lo, certo? Desse modo, não há o perigo de alguém tomar a sua identidade e fazer o que bem entender, prejudicando você e os seus bens. Para que os negócios online — com ou sem fins lucrativos — também sejam seguros, foi criada a assinatura digital.
+					<br/>
+					Essa garantia digital é uma maneira de verificar se o emissor de um documento ou serviço é realmente quem ele diz ser. Com isso, você pode navegar pela internet e acessar sites que usam as suas informações pessoais sem a preocupação de ser enganado ou roubado.
 				</p>
 			</div>
 		</div>
@@ -73,25 +63,24 @@
 				<div class="col-12 pt-4 pb-4">
 					<div class="row">
 						<div class="col-7">
-							<h1>Validar Documento</h1>
+							<h1 class="">Você quer validar um documento?</h1>
 							<div class="row">
 								<div class="col-4 d-flex align-items-center">
 									<img class="ty-img-doc" src="assets/img/doc.png" alt="">
 								</div>
-								<div class="col-8 d-flex align-items-center">
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, lacus nec facilisis commodo, velit lorem lobortis
-										elit, eget iaculis diam ipsum sit amet massa. Sed et ante vel leo interdum fringilla. Sed vel tincidunt neque.
-										Quisque venenatis elit vitae tortor lobortis lacinia. Curabitur ut ornare orci. Nulla facilisi. Integer elementum
-										volutpat magna, eu tempus est dignissim non.
-									</p>
+								<div class="col-8 d-flex align-items-center justify-content-center ty-font-border">
+										<p>
+												1. Digite o Número do Documento (Rodapé)<br/>
+												2. Digite o Código Verficador (Abaixo da Assinatura)<br/>
+												3. Confirme se as palavras estão no lugar correto<br/>
+										</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-5 d-flex align-items-center">
 							<div class="input-group mb-3">
-								<input type="text" class="form-control" placeholder="ID do Documento" aria-describedby="button-addon2">
+								<input type="text" class="form-control" placeholder="Número do Documento" aria-describedby="button-addon2">
 								<div class="input-group-append">
 									<a href="validar.html">
 										<button type="button" class="btn btn-primary ">Validar</button>
@@ -111,17 +100,17 @@
 					<div class="col-12 pt-4 pb-4">
 						<div class="row d-flex flex-row-reverse">
 							<div class="col-7">
-								<h1>Assinar Documento</h1>
+								<h1>Você tem um documento pra assinar?</h1>
 								<div class="row d-flex flex-row-reverse">
 									<div class="col-4 d-flex align-items-center">
-										<img class="ty-img-doc" src="assets/img/assina.png" alt="">
+										<img class="ty-img-doc" src="assets/img/doc2.png" alt="">
 									</div>
-									<div class="col-8 d-flex align-items-center">
+									<div class="col-8 d-flex align-items-center ty-font-border">
 										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, lacus nec facilisis commodo, velit lorem lobortis
-											elit, eget iaculis diam ipsum sit amet massa. Sed et ante vel leo interdum fringilla. Sed vel tincidunt neque.
-											Quisque venenatis elit vitae tortor lobortis lacinia. Curabitur ut ornare orci. Nulla facilisi. Integer elementum
-											volutpat magna, eu tempus est dignissim non.
+											1. Faça o Login<br/>
+											2. Faça o Upload do Arquivo para ser assinado<br/>
+											3. Confirme a validação das palavras<br/>
+											4. Imprima ou Compartilhe<br/>
 										</p>
 									</div>
 								</div>
