@@ -5,17 +5,17 @@
 /* div{border: 1px solid red;}
 /* =============== Navbar =============== */
 .ty-nav{
-	background-color: white;
+	background-color: #237620;
 	color: black;
 }
 
 /* =============== Index =============== */
 #ty-home{
-	background-image: url("../assets/img/contract.png");
+	background-color: #303133;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 110px;
+	padding-bottom: 70px;
 	color: white;
 }
 
@@ -24,40 +24,54 @@
 	color: black;
 }
 
-#ty-assina{
-	background-color: #45b75b;
+#ty-validar{
+	/*background-image: linear-gradient(265deg,#43cbff,#688cff);*/
+	background-color: #4B4C4F;
+	padding-top: 110px;
+	padding-bottom: 40px;
 	color: white;
+}
+
+#ty-assina{
+	background-color: #636469;
+	color: white;
+	padding-top: 110px;
+	padding-bottom: 40px;
 }
 
 .ty-img-doc{
 	width: 100%;
 }
 
-/* =============== Login =============== */
-#ty-login{
-	background-image: linear-gradient(265deg,#43cbff,#688cff);
-	padding: 40px 0px;
+/* =============== Valida =============== */
+#ty-valida{
+	background-color: #303133; 
+	padding-top: 110px;
+	padding-bottom: 70px;
 	color: white;
 }
 
-/* =============== Validar =============== */
-#ty-validar{
-	background-image: linear-gradient(265deg,#43cbff,#688cff);
-	padding: 50px 0px;
+/* =============== Login =============== */
+#ty-login{
+	background-color: #303133; 
+	padding-top: 110px;
+	padding-bottom: 70px;
 	color: white;
 }
 
 /* =============== Validar =============== */
 #ty-upload{
-	background-image: linear-gradient(265deg,#43cbff,#688cff);
-	padding: 40px 0px;
+	background-color: #303133; 
+	padding-top: 110px;
+	padding-bottom: 70px;
 	color: white;
 }
 
 /* =============== Perfil =============== */
 #ty-perfil{
-	background-image: linear-gradient(265deg,#43cbff,#688cff);
-	padding: 40px 0px;
+	background-color: #303133; 
+	padding-top: 110px;
+	padding-bottom: 70px;
 	color: white;
 }
 
@@ -70,25 +84,34 @@
 
 /* =============== Rodapé =============== */
 #ty-rodape{
-	background-color: white;
+	background-color: #002700;
 	padding: 30px 0px;
-	color: black;
+	color: white;
 }
 
 
 /* =============== Links =============== */
 a{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #43cbff;
+	color: #002700;
 	text-decoration: none;
 }
 
 /* =============== Fonts =============== */
+.ty-font-home{
+	font-size: 18px;
+	text-align: justify;
+}
 
+.ty-font-border{
+	color: white;
+	/*text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;*/
+	font-size: 18px;
+}
 
 .tam{
 	height: 100%;

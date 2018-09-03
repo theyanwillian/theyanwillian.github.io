@@ -15,46 +15,49 @@
 </head>
 
 <body>
-	<nav class="ty-nav navbar navbar-expand-lg">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Assinatura Digital</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-			 aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+		<nav class="ty-nav navbar navbar-expand-lg fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">Assinatura Digital</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					 aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+		
+		
+					
+					<div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<a class="nav-link" href="#ty-home">Home</a>
+							<a class="nav-link" href="#ty-validar">Validar</a>
+							<a class="nav-link" href="#ty-assina">Assinar</a>
+						</ul>
+						<ul class="navbar-nav ml-auto">
+							<a class="" href="login.html">
+								<button class="btn btn-danger">
+									Login
+								</button>
+							</a>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-			<div class="collapse navbar-collapse d-flex" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-						 aria-expanded="false">
-							Menu
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="login.html">Login</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
 
-
-	<section id="ty-validar">
+	<section id="ty-valida">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-2 col-sm-1"></div>
 
 				<div class="col-lg-6 col-md-8 col-sm-10">
 					
-					<h1 class="text-center">Validar Documento</h1>
-                    
-                    <h2>ID: 00000541</h2>
-                    <p>Documento: Lorem Ipsum Art. 01</p>
+					<h1 class="text-center">Validação de Documento</h1>
+                    <br>
+                    <h2>N. do Documento: 002469</h2>
+                    <p>Documento: Artigo Lorem Ipsum N 002</p>
                     <br/>
 
 					<div class="form-group">
-                        <label for="codigo">Codigo Verificador</label>
+                        <label for="codigo" style="font-size: 20px;">Código Autenticador:</label>
 						<input type="text" class="form-control" id="codigo" name="codigo" placeholder="Digite o codigo verificador">
 					</div>
 					<a href="validado.html"><button type="button" class="btn btn-primary form-control" id="btn_insc">Validar</button></a>
